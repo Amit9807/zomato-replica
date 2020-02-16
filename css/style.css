@@ -122,4 +122,20 @@
   text-align: left;
   color: rgba(255, 255, 255, 0.554);
 }
+
+.patch001, #patch007, .patch005 {
+  display: none;
+}
+
+.widget div div button:nth-child(2) {
+  margin: -5px;
+  border: 0;
+  width: 0;
+  padding: 0;
+  font-size: 1px;
+}
+
+.widget {
+  padding: 0.5rem;
+}
 /*# sourceMappingURL=style.css.map */
