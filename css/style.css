@@ -1,0 +1,125 @@
+@use './reset.scss';
+/* Add your css here */
+.h-container ul {
+  list-style: none;
+  padding: 15px;
+}
+
+.h-container ul li img {
+  width: 2rem;
+}
+
+.h-container li {
+  list-style-type: none;
+}
+
+.h-container li img {
+  width: 2rem;
+}
+
+.banner {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-section-2 img {
+  position: relative;
+  left: 35%;
+  width: 6em;
+}
+
+.banner-section-2 h1 {
+  font-size: 25px;
+  font-weight: 50;
+  text-align: center;
+}
+
+.banner-section-3 button {
+  color: white;
+  background-color: #f02244;
+}
+
+.widget {
+  background-color: #f5efef;
+}
+
+.widget .button1 {
+  background-color: white;
+  color: #f02244;
+}
+
+.widget .order-btn {
+  text-shadow: white;
+  background-color: green;
+  color: white;
+}
+
+.categories h2 {
+  font-size: 25px;
+}
+
+.categories p {
+  font-size: 15px;
+  color: gray;
+}
+
+.category-list {
+  border: 1px solid #00000021;
+  background-color: white;
+}
+
+.category-list img {
+  width: 3rem;
+}
+
+.category-list img:hover {
+  opacity: 0.4;
+}
+
+.category-list li {
+  cursor: pointer;
+}
+
+.localities {
+  border: 1px solid black;
+}
+
+.localities h2 {
+  font-size: 25px;
+}
+
+.localities p {
+  font-size: 15px;
+  color: gray;
+}
+
+.localities ul {
+  list-style-type: none;
+}
+
+.footer-wrapper {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.554);
+}
+
+.footer-wrapper img {
+  width: 4rem;
+  border-radius: 7px;
+}
+
+.footerwidget ul li {
+  cursor: pointer;
+  margin: 1rem 0 0 0;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.554);
+}
+
+.footerwidget ul li {
+  cursor: pointer;
+  margin: 1rem 0 0 0;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.554);
+}
+/*# sourceMappingURL=style.css.map */

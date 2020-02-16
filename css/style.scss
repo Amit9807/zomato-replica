@@ -1,3 +1,170 @@
 @use './reset.scss';
 
 /* Add your css here */
+
+
+.h-container
+{ 
+   ul{
+       list-style: none;
+       padding: 15px;
+       li{
+           
+           img{
+               width: 2rem;
+           }
+       }
+   }
+   li
+   {
+       list-style-type: none;
+       img
+       {
+           width: 2rem;
+       }
+   }  
+}
+.banner
+{
+    background-image: url("../images/bg.jpg"),;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    // background-blend-mode:darken;   
+}
+
+.banner-section-2
+{
+    img
+    {
+        position: relative;
+        left: 35%;
+        width: 6em;
+    }
+    h1
+    {
+        font-size: 25px;
+        font-weight: 50;
+        text-align: center;
+    }
+}
+.banner-section-3
+{
+    button
+    {
+        color: white;
+        background-color: rgb(240, 34, 68);
+    }
+}
+.widget
+{
+    background-color: rgb(245, 239, 239);
+    .button1
+    {
+      background-color:white;
+      color: rgb(240, 34, 68);
+    }
+    .order-btn
+    {
+        text-shadow: white;
+        background-color: green;
+        color: white;
+    }
+}
+
+.categories
+{
+    h2{
+        font-size: 25px;
+    }
+    p
+    {
+        font-size: 15px;
+        color: gray;
+    }
+}
+.category-list
+{
+    
+    border: 1px solid #00000021;
+    background-color:white;
+    img{
+        width: 3rem;
+        &:hover
+        {
+            opacity: 0.4;
+        }
+    }
+    li
+    {
+        cursor: pointer;
+    }
+}
+
+
+.localities
+{
+    border: 1px solid black;
+    
+    h2
+    {
+        font-size: 25px;
+    }
+    p
+    {
+        font-size: 15px;
+        color: gray;
+    }
+    ul
+    {
+        
+        list-style-type: none;
+    }
+}
+
+
+   
+.footer-wrapper
+{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.554);
+    img
+    { 
+        width: 4rem;
+        border-radius: 7px;
+    }
+    
+}
+.footerwidget
+{
+    ul{
+        li{
+            cursor: pointer;
+            margin: 1rem 0 0 0;
+            text-align: left;
+            color: rgba(255, 255, 255, 0.554);
+        }
+    }
+}
+// .widgettitle
+// {
+//     font-size: 20px;
+//     font-weight:900;
+// }
+// .icon
+// {
+//     color:white;
+   
+// 
+
+.footerwidget
+{
+    ul{
+        li{
+            cursor: pointer;
+            margin: 1rem 0 0 0;
+            text-align: left;
+            color: rgba(255, 255, 255, 0.554);
+        }
+    }
+}
