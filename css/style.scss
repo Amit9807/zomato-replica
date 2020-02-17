@@ -1,28 +1,9 @@
 @use './reset.scss';
 
-
-
-
-.h-container
-{ 
-   ul{
-       list-style: none;
-       padding: 5px;
-       li{
-           
-           img{
-               width: 2rem;
-           }
-       }
-   }
-   li
-   {
-       list-style-type: none;
-       img
-       {
-           width: 2rem;
-       }
-   }  
+/* Add your css here */
+.topbarimg
+{
+    width: 2rem;
 }
 .banner
 {
@@ -30,48 +11,89 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-     
+    background-blend-mode:darken;
+    background-color:#0000006b;
+    
+}
+.banner-section1
+{
+    a
+    {
+        color: white;
+    }
+    button
+    {
+        border: 2px solid  white;
+        color: white;
+        border-radius: none;
+    }
 }
 
-.banner-section-2
+.banner-section2 
 {
-    img
-    {
-        position: relative;
-        left: 35%;
-        width: 6em;
+    h1{
+        font-size: 28px;
+        color: white;
+        font-weight: lighter;
+        text-align: center;
     }
+    img{
+        width: 128px;
+        height: 128px;
+    }
+}
+.main-widget
+{
     h1
     {
         font-size: 25px;
-        font-weight: 50;
-        text-align: center;
     }
-}
-.banner-section-3
-{
-    button
+    small
     {
-        color: white;
-        background-color: rgb(240, 34, 68);
+        font-size: 15px;
+        color: gray;
     }
-}
-.widget
-{
-    background-color: rgb(245, 239, 239);
-    .button1
+    .subwidget
     {
-      background-color:white;
-      color: rgb(240, 34, 68);
-    }
-    .order-btn
-    {
-        text-shadow: white;
-        background-color: green;
-        color: white;
+            background-color: #fff; 
+            border: 1px solid #00000021;
+            border-radius: 2px;
+            h4{
+                font-size: 18px;
+            }
+            
     }
 }
 
+.collection
+{
+    h1{
+        font-size: 25px;
+    }
+    small
+    {
+        font-size: 15px;
+        color: gray;
+    }
+    img{
+        width: 100%;
+    }
+}
+.collection_item
+{
+    .d-flex
+    {
+        border: 1px solid #00000021;
+        background-color: white;
+    }
+    
+}
+.collbutton
+{
+    border: 1px solid #00000021;
+    background-color: white;
+    color: rgba(158, 18, 18, 0.89);
+}
 .categories
 {
     h2{
@@ -85,7 +107,7 @@
 }
 .category-list
 {
-    
+    height: 10rem;
     border: 1px solid #00000021;
     background-color:white;
     img{
@@ -100,14 +122,9 @@
         cursor: pointer;
     }
 }
-
-
 .localities
 {
-    border: 1px solid black;
-    
-    h2
-    {
+    h2{
         font-size: 25px;
     }
     p
@@ -115,25 +132,29 @@
         font-size: 15px;
         color: gray;
     }
-    ul
+}
+
+.locality-list
+{
+    border: 1px solid #00000021;
+    background-color:white;
+    text-align: center;
+    li
     {
-        
-        list-style-type: none;
+        text-align: left;
+        margin: 1rem 0 0 0;
     }
 }
 
-
-   
-.footer-wrapper
+footer
 {
     background-color: black;
-    color: rgba(255, 255, 255, 0.554);
+    color: white;
     img
     { 
         width: 4rem;
         border-radius: 7px;
     }
-    
 }
 .footerwidget
 {
@@ -146,20 +167,15 @@
         }
     }
 }
-
-
-.footerwidget
+.widgettitle
 {
-    ul{
-        li{
-            cursor: pointer;
-            margin: 1rem 0 0 0;
-            text-align: left;
-            color: rgba(255, 255, 255, 0.554);
-        }
-    }
+    font-size: 20px;
+    font-weight:900;
 }
-
+.icon
+{
+    color:white;
+}
 
 
 .patch001, #patch007, .patch005{
@@ -169,6 +185,8 @@
 
 
 .widget div div button:nth-child(2) {
+   
+
     margin: -5px;
     border: 0;
     width: 0;
@@ -177,6 +195,6 @@
 }
 
 .widget {
-   
+  
     padding: 0.5rem;
 }
